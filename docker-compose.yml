@@ -1,0 +1,15 @@
+version: '3.2'
+
+services:
+  tbot:
+    #image: vsb2007/rpi-tbot:master
+    image: vsb2007/rpi-tbot:latest
+    container_name: tbot
+    volumes:
+      - /srv/tbot/config:/app/tbot/config
+      - /srv/tbot/socket:/app/tbot/socket
+      - /srv/tbot/app/bot.py:/app/tbot/bot.py
+    restart: always
+    cap_add:
+    - SYS_ADMIN
+    privileged: true

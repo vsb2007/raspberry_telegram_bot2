@@ -1,0 +1,10 @@
+# -*- coding: utf-8 -*-
+
+token = '<token>'
+idBuilding = 'm70'
+chadId = '<private_chat_id>'
+chadIdM70 = '<private_chat_id>'
+tempcommand = 'temp'
+socks5url = 'socks5://<ip>:<port>'
+socks5username = '<username>'
+socks5password = '<password>'
