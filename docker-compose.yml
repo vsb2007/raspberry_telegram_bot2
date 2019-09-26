@@ -2,7 +2,6 @@ version: '3.2'
 
 services:
   tbot:
-    #image: vsb2007/rpi-tbot:master
     image: vsb2007/rpi-tbot:latest
     container_name: tbot
     volumes:
