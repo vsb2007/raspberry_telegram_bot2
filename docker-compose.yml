@@ -7,7 +7,6 @@ services:
     container_name: tbot
     volumes:
       - /srv/tbot/config:/app/tbot/config
-      - /srv/tbot/socket:/app/tbot/socket
       - /srv/tbot/app/bot.py:/app/tbot/bot.py
     restart: always
     cap_add:
