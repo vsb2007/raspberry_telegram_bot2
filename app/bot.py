@@ -72,7 +72,7 @@ def main():
     """Start the bot."""
     # Create the EventHandler and pass it your bot's token.
     #updater = Updater(TOKEN)
-    #TOKEN = '611750669:AAErARN4TYaTDBGlW_4d7L-EIgJPYq9mdTM'
+    #TOKEN = ''
     #bot = telegram.Bot(token=TOKEN, request=pp)
 
     REQUEST_KWARGS={
